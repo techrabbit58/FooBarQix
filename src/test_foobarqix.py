@@ -1,3 +1,5 @@
+import re
+
 import pytest
 
 from foobarqix import foo_bar_qix
@@ -9,10 +11,17 @@ def test_foobarqix_with_nonpositive_number(number):
         foo_bar_qix(number)
 
 
-def test_foobarqix_with_non_integer():
-    with pytest.raises(ValueError, match=str(3.0)):
+def some_func():
+    ...
+
+
+@pytest.mark.parametrize("arg", [
+    1.3, "5", 1+3j, True, None, lambda _: 1, type("SomeClass", (), {}), object, some_func
+])
+def test_foobarqix_with_non_integer(arg):
+    with pytest.raises(ValueError, match=re.escape(str(arg))):
         # noinspection PyTypeChecker
-        foo_bar_qix(3.)
+        foo_bar_qix(arg)
 
 
 @pytest.mark.parametrize("actual_number, expected_result", [
