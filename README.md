@@ -6,7 +6,7 @@ and returns a string.
 * The function shall answer Foo for each number divisible
 by 3, Bar if divisible by 5 and Qix if divisible by 7.
 * For each digit 3,  or 7, Foo, Bar or Qix shall be added to
-a number in the order of the number's apperaance.
+a number in the order of the number's apperance.
 
 ## Reference
 * Find the original description here: [Coding Dojo](https://codingdojo.org/kata/FooBarQix)
