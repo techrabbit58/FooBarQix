@@ -60,7 +60,7 @@ def test_foobarqix_with_non_integer(arg):
     (753, "FooQixBarFoo"),  # divisible by 3, contains all three
     (10005, "FooBar***Bar"),  # divisible by 3 and 5, contains three zeros and one 5
     (10019, "1**19"),  # contains two zeros
-    (10101, "FooQix**"),  # step 2: divisible by 3 and 7, conteins two zeros
+    (10101, "FooQix**"),  # step 2: divisible by 3 and 7, contains two zeros
     (15703, "BarQix*Foo"),  # step 2: contains all three and zero
     (30705, "FooBarFoo*Qix*Bar"),  # step 2: divisible by 3 and 5, contains all
 ])
