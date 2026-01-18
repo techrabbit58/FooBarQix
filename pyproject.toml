@@ -1,7 +1,7 @@
 [project]
 name = "foobarqix"
 version = "0.1.0"
-description = "My (first) attempt at completing the FooBarQix kata"
+description = "My attempt at completing the FooBarQix kata"
 requires-python = ">=3.14"
 dependencies = [
     "pytest>=9.0.2",
