@@ -10,7 +10,7 @@ a number in the order of the number's apperance.
 
 ## Reference
 * Find the original description here: [Coding Dojo](https://codingdojo.org/kata/FooBarQix)
-* This is an easy kata that shall be used to execise test driven development ([TDD](https://en.wikipedia.org/wiki/Test-driven_development?wprov=sfti1)).
+* This kata shall be used to exercise test driven development ([TDD](https://en.wikipedia.org/wiki/Test-driven_development?wprov=sfti1)).
 * I use `pytest` for testing. I recommend to work with a virtual
 environment. Requirements for the test are these libraries: 
 `pytest` and `pytest-cov`.
